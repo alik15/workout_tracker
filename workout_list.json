@@ -1,0 +1,24 @@
+[
+{"PULL":{"1":["Lat Pulldowns",
+              "Seated Rows ",
+              "Bicep Curls",
+              "Cable Pulldowns",
+              "Shrugs",
+              "Forearm Curls"],
+         "2":["Deadlifts",
+              "Reverse Bicep Curls"]},
+"PUSH":{"1":["Bench Press",
+             "Tricep Pull Downs",
+             "Chest Press",
+             "Chest Flys",
+             "Chest Fly Machine"],
+       "2":["Overhead Chess Press",
+            "Shoulder Press Machine",
+            "Overhead Tricep Pulldowns",
+            "Shoulder Flys Machine"]},
+"LEG":{"1":["Leg Press",
+            "Squats",
+            "Lunges"],
+       "2":["machines"]}
+            }
+       ]
