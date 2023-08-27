@@ -1,6 +1,7 @@
 {"date":"none",
     "day":"none",
     "workout":"none",
-    "set":{"set1":[]
+    "set":{"set1":[],
+    "weight":"none"
             }
 }

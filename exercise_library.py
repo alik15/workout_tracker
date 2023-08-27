@@ -13,12 +13,13 @@ class ExerciseLibrary:
         with open(self.json_file, 'w') as f:
             json.dump(self.exercise_library, f, indent=4)
 
-    def add_exercise(self, category, level, exercise_name):
+    def add_exercise(self, category, level, exercise_name, weight=None):
         if category not in self.exercise_library:
             self.exercise_library[category] = {}
         if level not in self.exercise_library[category]:
             self.exercise_library[category][level] = []
-        self.exercise_library[category][level].append(exercise_name)
+        exercise = {'name': exercise_name, 'weight': weight}
+        self.exercise_library[category][level].append(exercise)
         self.save_library()
 
     def get_exercise(self, category, level, index):
